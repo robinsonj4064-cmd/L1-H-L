@@ -58,6 +58,12 @@ def int_check(question):
             print(error)
 
 
+# Automated testing is below in the form (test_case, expected_value)
+while True:
+    num_rounds = int_check("How many rounds? ")
+    print(f"you chose {num_rounds}")
+
+
 
 # Main routine starts here
 
